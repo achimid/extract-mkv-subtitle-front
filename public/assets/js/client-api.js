@@ -1,4 +1,4 @@
-const SERVER_URL = 'http://extractmkvsubtitle.ddns.net'
+const SERVER_URL = 'http://extractmkvsubapi.ddns.net'
 // const SERVER_URL = 'http://localhost:9001'
 
 
