@@ -1,0 +1,7 @@
+# Group 1
+User-agent: *
+Disallow: /api/
+
+# Group 2
+User-agent: *
+Allow: /

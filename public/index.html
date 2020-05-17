@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Extract MKV Subtitle</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+		<!-- Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162911203-1"></script>
+		<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-162911203-1');</script>
+
+		<!-- Google Adsense -->
+		<script data-ad-client="ca-pub-1074977272166195" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/loading-bar.min.css"/>
+
+		<!-- FavIcon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+		<link rel="manifest" href="/icon/site.webmanifest">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Extract MKV Subtitle</h1>
+				<p>
+					An easy online service to extract subtitle from a MKV file<br/>
+					given a Torrent MagnetLink and try an automatic translation<br/>
+					in the subtitle dialogues. Using this <a href="https://github.com/achimid/extract-mkv-subtitle-api">API</a>.
+				</p>
+			</header>
+
+		<!-- Signup Form -->
+			<form id="extract-form" method="post" action="#">
+				<input type="text" name="magnetLink" id="magnetLink" 
+					placeholder="Torrent MagnetLink" title="This field should be a magnetLink" required/>
+				<select id="langTo" title="Tranlation Language">
+					<option value="">Translation</option>
+					<option value="pt">Português</option>
+					<option value="fr">Francês</option>
+					<option value="es">Espanhol</option>
+				</select>
+				<div class="div-use-cache hidden">
+					<input type="checkbox" id="useCache" name="useCache" checked>
+					<label for="useCache">Cache</label>
+				  </div>
+				<input type="submit" value="Extract" />
+			</form>
+
+			<div id="status" class="row hidden">
+				<div class="col">
+					<div id="progress-bar"></div>				
+				</div>
+				<p class="col-ml"> Download: <span id="dlw-speed"></span>/s </p>
+				<p class="col-ml"> Upload: <span id="upl-speed"></span>/s </p>
+			</div>
+
+			<div id="result"></div>
+			
+				
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://github.com/achimid/extract-mkv-subtitle-api" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="mailto:achimid@hotmail.com?subject=MKV-Subtitle-Extract-(Contact)" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Achimid</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js" integrity="sha256-bQmrZe4yPnQrLTY+1gYylfNMBuGfnT/HKsCGX+9Xuqo=" crossorigin="anonymous"></script>			
+			<script type="text/javascript" src="assets/js/loading-bar.min.js"></script>	
+			<script src="assets/js/client-api.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+	
+</html>

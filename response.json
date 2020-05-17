@@ -1,0 +1,52 @@
+{
+    "_id": "5e97350ca332a5634daadf08",
+    "langsTo": [
+        "pt",
+        "es"
+    ],    
+    "magnetLink": "magnet:?xt=urn:btih:NPJ3LKI...",
+    "subtitles": [
+        {
+            "translations": [
+                {
+                    "dialoguesMap": [
+                        {
+                            "_id": "5e97350fa332a5634daadf0b",
+                            "line": "Dialogue: 0,0:01:42.98,0:01:44.40,flashbackitalics,MARIA,0000,0000,0000,,Hi...",
+                            "original": "Hi...",
+                            "translated": "Olá...",
+                            "to": "pt",
+                            "index": 0
+                        }
+                    ],
+                    "_id": "5e97350fa332a5634daadf0a",
+                    "to": "pt",
+                    "content": "Ola..."
+                },
+                {
+                    "dialoguesMap": [
+                        {
+                            "_id": "5e97350fa332a5634daae0b0",
+                            "line": "Dialogue: 0,0:01:42.98,0:01:44.40,flashbackitalics,MARIA,0000,0000,0000,,Hi...",
+                            "original": "Hi...",
+                            "translated": "Hola...",
+                            "to": "es",
+                            "index": 0
+                        }
+                    ],
+                    "_id": "5e97350fa332a5634daae0af",
+                    "to": "es",
+                    "content": "Hola..."
+                }
+            ],
+            "_id": "5e97350ea332a5634daadf09",
+            "fileName": "Example.2.srt",
+            "filePath": "/tmp/webtorrent/6bd3b5a9165603f1c29.../Example.2.srt",
+            "infoHash": "bd3b5a9165603f1c29...",
+            "magnetURI": "magnet:?xt=urn:btih:bd3b5a9165603f1c29...",
+            "fileContent": "[Script Info]\nTitle: Example\nScriptType: v4.00+\nWrapStyle: 0\nPlayResX: 848\nPlayResY: 480\nScaledBorderAndShadow: yes\n\n[V4+ Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\nStyle: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1\nStyle: main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0\nStyle: italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0\nStyle: flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1\nStyle: Default - Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1\nStyle: top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,24,0\nStyle: italicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0\nStyle: flashbackitalics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0\nStyle: flashbacktop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0\nStyle: flashbackitalicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0\nStyle: sign_7566_32_Test_1,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,40,40,320,1\nStyle: sign_7566_33_The_White_Steel_,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,40,40,320,1\nStyle: sign_18293_193_Evankhell_s_Moth,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,40,40,280,1\nStyle: sign_14594_155_Caf___Latte,Open Sans Semibold,36,&H001D0C0D,&H000000FF,&H004C9EED,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,40,40,27,1\nStyle: sign_25078_286_Calling,Open Sans Semibold,33,&H00B7D2F9,&H000000FF,&H001C1ACE,&H00000000,1,0,0,0,100,100,0,0,1,4,0,1,40,40,27,1\n\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n\nDialogue: 0,0:01:42.98,0:01:44.40,flashbackitalics,MARIA,0000,0000,0000,,Olá...\n"
+        }
+    ],
+    "createdAt": "2020-04-15T16:23:40.146Z",
+    "updatedAt": "2020-04-15T16:23:48.850Z"
+}
