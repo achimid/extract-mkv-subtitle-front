@@ -2,7 +2,7 @@ let SERVERS = [
     'https://extract-mkv-subtitle-prd-01.herokuapp.com',
     'https://extract-mkv-subtitle-prd-02.herokuapp.com',
     'https://extract-mkv-subtitle-prd-03.herokuapp.com',
-    'https://extract-mkv-subtitle-prd-05.herokuapp.com'
+    'https://extract-mkv-subtitle-prd-04.herokuapp.com'
 ]
 let SERVER_URL = SERVERS[Date.now() % SERVERS.length]
 // const SERVER_URL = 'http://localhost:9001'
