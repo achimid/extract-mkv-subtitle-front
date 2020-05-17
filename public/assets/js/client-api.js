@@ -106,3 +106,5 @@ const createDownloadButton = (filename, text) => {
   }
 
 const notHasSubtitles = (extraction) => (!extraction || !extraction.subtitles || extraction.subtitles.length == 0 )
+
+console.log('Connected to ', SERVER_URL)
