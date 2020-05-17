@@ -1,4 +1,10 @@
-const SERVER_URL = 'http://extractmkvsubapi.ddns.net'
+let SERVERS = [
+    'https://extract-mkv-subtitle-prd-01.herokuapp.com',
+    'https://extract-mkv-subtitle-prd-02.herokuapp.com',
+    'https://extract-mkv-subtitle-prd-03.herokuapp.com',
+    'https://extract-mkv-subtitle-prd-05.herokuapp.com'
+]
+let SERVER_URL = SERVERS[Date.now() % SERVERS.length]
 // const SERVER_URL = 'http://localhost:9001'
 
 
@@ -99,4 +105,4 @@ const createDownloadButton = (filename, text) => {
         
   }
 
-  const notHasSubtitles = (extraction) => (!extraction || !extraction.subtitles || extraction.subtitles.length == 0 )
+const notHasSubtitles = (extraction) => (!extraction || !extraction.subtitles || extraction.subtitles.length == 0 )
