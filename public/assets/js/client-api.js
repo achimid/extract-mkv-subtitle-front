@@ -4,8 +4,8 @@ let SERVERS = [
     'https://extract-mkv-subtitle-prd-03.herokuapp.com',
     'https://extract-mkv-subtitle-prd-04.herokuapp.com'
 ]
-let SERVER_URL = SERVERS[Date.now() % SERVERS.length]
-// const SERVER_URL = 'http://localhost:9001'
+// let SERVER_URL = SERVERS[Date.now() % SERVERS.length]
+const SERVER_URL = 'http://localhost:9099'
 
 
 const $dlwSpeed = document.querySelector("#dlw-speed")
